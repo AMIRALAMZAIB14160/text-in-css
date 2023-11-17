@@ -1,0 +1,198 @@
+/* FONT FAMILY */
+
+/* body{
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1, h2 {
+    font-family: cursive
+}
+
+.credits {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+} */
+
+/* FONT SIZE */
+       /* pixels */
+/* p{
+    font-size: 32px;
+/* } */
+      /* percentage */
+/* p{
+    font-size: 300%;
+} */
+
+     /* default values */
+/* p{
+    font-size: larger
+} */
+       /* EMS */
+/* p{
+    font-size: 3em;
+} */
+
+      /* FONT FACE */
+/* @font-face{
+    font-family: My-font;
+    src:url(./fonts/Kalam-Bold.ttf)
+}
+h1{
+    font-family: My-font;
+} */
+
+        /* FONT WEIGHT */
+
+/* P{
+    font-weight: bolder;
+} */
+
+    /* FONT STYLE */
+
+/* h1{
+    font-style: italic;
+} */
+
+/* using id selector & comparing 3 styles */
+/* 
+#normal{
+    font-style: normal
+}
+#italic{
+    font-style: italic;
+}
+#oblique{
+    font-style: oblique;
+} */
+
+    /* TEXT TRANSFORM */
+    /* hello guys <= lowercase*/
+    /* HELLO GUYS <= uppercase*/
+    /* Hello Guys How Are You Doing? <= Capatalize*/
+/* h1{
+    text-transform: capitalize;
+} */
+
+/* TEXT DECORATION */
+/* #underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#line-through{
+    text-decoration: line-through;
+}
+#blink{
+    text-decoration: double;
+} */
+
+    /* LINE HEIGHT/LEADING */
+/* p{
+    line-height: 50px;
+} */
+
+/* Letter & Word Spacing */
+    /* word spacing */
+/* h1{
+    word-spacing: 10px;
+}   */
+    /* Letter Spacing */
+/* h1{
+     letter-spacing: 10px;
+} */
+
+        /* TEXT ALIGN */
+/* h1{
+     text-align: center;
+}
+p{
+     text-align: justify;
+     padding: 2px;
+} */
+
+            /* VERTICAL ALIGNMENT */
+/* Img{
+     vertical-align: top;
+} */
+
+    /* TEXT INDENT */
+/* h1{
+    text-indent: 50px;
+} */
+
+/* p{
+    text-indent: 40px;
+    text-align: justify;
+} */
+
+    /* TEXT SHADOW */
+/* P{
+    background-color: wheat;
+    color: blue;
+    text-shadow: 1px 0.3px 1px #9fcea1;
+} */
+
+/* FIRST LETTER/LINE  */
+/* P::first-letter{
+    color: crimson;
+} */
+/* p::first-line{
+    color: rgb(100, 0, 0);
+} */
+
+    /* STYLING LINKS */
+
+    /* STYLING LINKS */
+    /* a:link{
+        color: darkgreen;
+    }
+    a:visited{
+        color: red;
+    } */
+
+    /* RESPONDING TO USER */
+    /* hover */
+    /* input.bttn:hover{
+        background-color: rgb(42, 147, 165);
+    }
+    input.bttn:active{
+        background-color:coral
+    }
+    input.bttn:focus{
+        background-color: fuchsia;
+    }
+
+    input.txt:focus{
+        background-color: red;
+    } */
+
+        /* ATTRIBUTE/SELECTORS */
+           /* existence */
+    /* h1[name]{
+        color: brown;
+    } */
+
+           /* Equality */
+    /* h1[name="how"]{
+        color: chartreuse;
+    } */
+
+          /* SPACE */
+    /* h1[name~='thanks']{
+        color: deeppink;
+    } */
+
+         /* PREFIX */
+    /* h1[name^="h"]{
+        color: crimson;
+    } */
+
+        /* SUBSTRING */
+    /* h1[name*="o"]{
+        color: darkgoldenrod;
+    } */
+
+        /* SUFFIX */
+    /* h1[name$="s"]{
+        color: darkgreen;
+    } */
